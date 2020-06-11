@@ -12,16 +12,25 @@
 	<quaternion.h>
 	<Eigen/Dense>
 
-1591842727 source:c:\users\kevinkorner\documents\gitresearch\c++ testing\cppbeammodel\beammodel2\main.cpp
+1591909466 source:c:\users\kevinkorner\documents\gitresearch\c++ testing\cppbeammodel\beammodel2\main.cpp
 	<iostream>
 	<quaternion.h>
 	<Eigen/Dense>
+	<unsupported/Eigen/CXX11/Tensor>
+	<chrono>
 
-1591836172 c:\users\kevinkorner\documents\gitresearch\c++ testing\cppbeammodel\beammodel2\include\quaternion.h
+1591907181 c:\users\kevinkorner\documents\gitresearch\c++ testing\cppbeammodel\beammodel2\include\quaternion.h
 	<stdio.h>
 	<math.h>
 	<Eigen/dense>
 
-1591835316 source:c:\users\kevinkorner\documents\gitresearch\c++ testing\cppbeammodel\beammodel2\src\quaternion.cpp
+1591907179 source:c:\users\kevinkorner\documents\gitresearch\c++ testing\cppbeammodel\beammodel2\src\quaternion.cpp
 	"quaternion.h"
+
+1591908798 source:c:\users\kevinkorner\documents\gitresearch\c++ testing\cppbeammodel\beammodel2\src\node.cpp
+	"Node.h"
+	<Eigen/dense>
+
+1591908742 c:\users\kevinkorner\documents\gitresearch\c++ testing\cppbeammodel\beammodel2\include\node.h
+	<Eigen/dense>
 

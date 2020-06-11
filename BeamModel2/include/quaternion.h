@@ -63,7 +63,7 @@ See also example.cpp .
 
 #include <stdio.h>
 #include <math.h>
-#include <Eigen/dense>
+#include <Eigen/Dense>
 
 // forward declarations for the friend template
 template <typename real> class Quat;

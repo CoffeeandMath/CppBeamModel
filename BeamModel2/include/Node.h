@@ -1,7 +1,7 @@
 #ifndef NODE_H
 #define NODE_H
 
-#include <Eigen/dense>
+#include <Eigen/Dense>
 class Node
 {
 public:

@@ -33,8 +33,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="include/Frame.h" />
+		<Unit filename="include/Node.h" />
 		<Unit filename="include/quaternion.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Frame.cpp" />
+		<Unit filename="src/Node.cpp" />
 		<Unit filename="src/quaternion.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

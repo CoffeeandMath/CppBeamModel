@@ -16,10 +16,14 @@ include_directories(${EIGEN3_INCLUDE_DIR} ${EIGEN3_INCLUDE_DIR}/supported/)
 
 ADD_LIBRARY(quaternion ${CMAKE_SOURCE_DIR}/src/quaternion.cpp)
 ADD_LIBRARY(node ${CMAKE_SOURCE_DIR}/src/Node.cpp)
+ADD_LIBRARY(frame ${CMAKE_SOURCE_DIR}/src/Frame.cpp)
 
 ADD_EXECUTABLE(run ${CMAKE_SOURCE_DIR}/main.cpp)
 TARGET_LINK_LIBRARIES(run quaternion)
 TARGET_LINK_LIBRARIES(run node)
+TARGET_LINK_LIBRARIES(frame quaternion)
+TARGET_LINK_LIBRARIES(frame node)
+TARGET_LINK_LIBRARIES(run frame)
 
 
 # Define a distclean target to remove every generated file:

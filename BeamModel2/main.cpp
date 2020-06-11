@@ -2,6 +2,7 @@
 #include <quaternion.h>
 #include <Eigen/Dense>
 #include <unsupported/Eigen/CXX11/Tensor>
+#include <Frame.h>
 using namespace std;
 using namespace Eigen;
 #include <chrono>
@@ -44,7 +45,7 @@ int main()
 
     double m6[3][3][3][3][3];
     unsigned int cntr = 0;
-    for (unsigned int n = 0; n < 100000; n++)
+    for (unsigned int n = 0; n < 10000; n++)
     {
         for (unsigned int i = 0; i < 3; i++)
         {
@@ -71,7 +72,6 @@ int main()
 
     cout << "Time taken by function: "
          << duration1.count() << " microseconds" << endl;
-
-    cout << m4 << endl;
+    //cout << m4 << std::endl;
     return 0;
 }

@@ -1,0 +1,7 @@
+/home/kevin/Documents/Research/Beams/CppBeamModel/BeamModel2/CMakeFiles/rebuild_cache.dir
+/home/kevin/Documents/Research/Beams/CppBeamModel/BeamModel2/CMakeFiles/edit_cache.dir
+/home/kevin/Documents/Research/Beams/CppBeamModel/BeamModel2/CMakeFiles/run.dir
+/home/kevin/Documents/Research/Beams/CppBeamModel/BeamModel2/CMakeFiles/frame.dir
+/home/kevin/Documents/Research/Beams/CppBeamModel/BeamModel2/CMakeFiles/node.dir
+/home/kevin/Documents/Research/Beams/CppBeamModel/BeamModel2/CMakeFiles/distclean.dir
+/home/kevin/Documents/Research/Beams/CppBeamModel/BeamModel2/CMakeFiles/quaternion.dir
